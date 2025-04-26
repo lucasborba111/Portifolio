@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family:  'Space Grotesk', sans-serif;
+} 
+
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+p {
+  hyphens: auto;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+
+.tab-button {
+  position: relative;
+  padding: 8px 16px;
+  background: transparent;
+  border: none;
+  color: #2e2e2e;
+  font-weight: 600;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.tab-button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 2px;
+  background-color: #2563eb;
+  transition: width 0.3s ease;
+  width: 0;
+}
+
+.tab-button:hover {
+  color: #2563eb;
+}
+
+.tab-button:hover::after {
+  width: 100%;
+}
+
+.tab-button.active {
+  color: #2563eb; 
+}
+
+.tab-button.active::after {
+  width: 100%;
+}
+
+
+.skill-card {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeInUp 0.5s ease forwards;
+}
+
+.swiper-wrapper {
+  -webkit-transition-timing-function: linear !important;
+  -o-transition-timing-function: linear !important;
+  transition-timing-function: linear !important;
+  width: fit-content !important;
+  margin: auto;
+}
+.swiper {
+  width: 100%;
+}
+
+.swiper-container-wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.swiper-slide {
+  width: 150px !important;
+  display: flex;
+  justify-content: center;
+}
+
+.swiper-container-wrapper::before,
+.swiper-container-wrapper::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  z-index: 3;
+  width: 100px;
+  height: 100%;
+  pointer-events: none;
+}
+
+.swiper-container-wrapper::before {
+  left: 0;
+  background: linear-gradient(to right, white 0%, rgba(255,255,255,0.8) 50%, transparent 100%);
+}
+
+.swiper-container-wrapper::after {
+  right: 0;
+  background: linear-gradient(to left, white 0%, rgba(255,255,255,0.8) 90%, transparent 100%);
+}
+
+.swiper {
+  width: 100%;
+  z-index: 2;
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear !important;
+  width: fit-content !important;
+  margin: auto;
+}
+
+.swiper-slide {
+  font-size: 18px;
+  background: #fff;
+  padding: 0 20px;
+  min-width: 120px;
+  max-width: 366px;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+}
