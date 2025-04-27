@@ -25,7 +25,7 @@ const SkillTabs = () => {
     <section
       ref={sectionRef}
       id="skills"
-      className="justify-items-center content-center my-auto h-screen max-w-5xl mx-auto p-4"
+      className="justify-items-center content-center my-auto h-screen max-w-5xl mx-auto p-4 table"
     >
       <h1 className="text-3xl md:text-5xl">Skills</h1>
 
@@ -49,7 +49,7 @@ const SkillTabs = () => {
         onAnimationComplete={() => {
           if (isInView) setIsAnimatingCards(true);
         }}
-        className="h-[256px] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-20 gap-x-7 mt-16 w-fit"
+        className="h-[256px] grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-y-20 gap-x-7 mt-16 w-fit mx-auto"
       >
         {isInView && isAnimatingCards &&
           skills[activeTab].map((skill, index) => (
