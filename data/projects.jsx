@@ -3,8 +3,8 @@ export const projects = [
       title: "Blog & CMS",
       online: true,
       tags: ["React", "Redux", ".NET Core", "Docker", "NGINX", "Ubuntu", "CI/CD", "GitHub Actions"],
-      designImage: "/designsystem.svg",
-      image: "/blog.png",
+      designImage: "/Portifolio/designsystem.svg",
+      image: "/Portifolio/blog.png",
       link: "https://balaiodoteobaldo.com.br/",
       description: `O projeto foi desenvolvido como um produto digital personalizado para um humorista local, que além de seu trabalho no humor, também está diretamente envolvido com ações publicitárias e faz parte da equipe da rádio Tabelando FC, reconhecida pelas narrações dos jogos do Criciúma Esporte Clube.
         O site foi pensado para refletir a personalidade leve e divertida do humorista, mas também dar espaço profissional para suas campanhas publicitárias e projetos paralelos. A proposta visual equilibra o entretenimento com a apresentação séria dos conteúdos de mídia e comunicação.
@@ -38,7 +38,7 @@ export const projects = [
     {
       title: "English SRS App (EM DESENVOLVIMENTO⚠️)",
       online: false,
-      designImage: "/inprogress.png",
+      designImage: "/Portifolio/inprogress.png",
       description: "Aplicação em desenvolvimento com foco em auxiliar estudantes de inglês através da metodologia SRS (Spaced Repetition System). O sistema propõe um ciclo de revisões espaçadas e personalizadas com base no desempenho do usuário. Esse projeto é o tema do Trabalho de Conclusão de Curso (TCC).",
       tags: ["SRS", "Educação", "React", "ASP.NET Core", "TCC", "Inglês"],
       id: 2

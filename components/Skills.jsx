@@ -25,7 +25,7 @@ const SkillTabs = () => {
     <section
       ref={sectionRef}
       id="skills"
-      className="justify-items-center content-center my-auto h-screen max-w-5xl mx-auto p-4"
+      className="justify-items-center content-center my-auto h-screen max-w-5xl mx-auto p-4 table text-center"
     >
       <h1 className="text-3xl md:text-5xl">Skills</h1>
 
