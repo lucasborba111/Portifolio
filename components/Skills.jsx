@@ -25,11 +25,11 @@ const SkillTabs = () => {
     <section
       ref={sectionRef}
       id="skills"
-      className="justify-items-center content-center my-auto h-screen max-w-5xl mx-auto p-4 table text-center"
+      className="justify-items-center content-center my-auto h-screen max-w-5xl mx-auto p-4"
     >
       <h1 className="text-3xl md:text-5xl">Skills</h1>
 
-      <div className="flex gap-4 mb-6 mt-5">
+      <div className="flex gap-4 mb-6 mt-5 mx-auto">
         {tabs.map((tab, index) => (
           <button
             key={`${tab.id}-${index}`}
