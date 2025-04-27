@@ -1,6 +1,6 @@
 export default function SkillCard({index, src, skillName, years, style}) {
     return (
-      <div className="skill-card bg-white rounded-xl shadow-md p-5 w-35 h-25 md:h-auto md:w-40 flex flex-col items-center relative" style={style}>
+      <div className="skill-card bg-white rounded-xl shadow-md p-5 w-35 h-auto md:w-40 flex flex-col items-center relative" style={style}>
         <img
           src={src}
           alt={skillName}
