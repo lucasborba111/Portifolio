@@ -2,13 +2,12 @@ export const projects = [
     {
       title: "Blog & CMS",
       online: true,
-      tags: ["React", "Redux", ".NET Core", "Docker", "NGINX", "Ubuntu", "CI/CD", "GitHub Actions"],
+      tags: ["VPS", "NGINX", "Ubuntu", "Docker", "CI/CD", "GitHub Actions", "React", "Redux", ".NET Core", "MySQL"],
       designImage: "/Portifolio/designsystem.svg",
       image: "/Portifolio/blog.png",
-      link: "https://balaiodoteobaldo.com.br/",
-      description: `O projeto foi desenvolvido como um produto digital personalizado para um humorista local, que além de seu trabalho no humor, também está diretamente envolvido com ações publicitárias e faz parte da equipe da rádio Tabelando FC, reconhecida pelas narrações dos jogos do Criciúma Esporte Clube.
-        O site foi pensado para refletir a personalidade leve e divertida do humorista, mas também dar espaço profissional para suas campanhas publicitárias e projetos paralelos. A proposta visual equilibra o entretenimento com a apresentação séria dos conteúdos de mídia e comunicação.
-        Além disso, o projeto foi desenvolvido com foco em performance, <b>responsividade para múltiplos dispositivos (mobile, tablet e desktop)</b>, e facilidade de atualização de conteúdos, visto que o humorista precisava de um ambiente que pudesse crescer junto com suas oportunidades comerciais e presença digital.`,
+      link: "https://github.com/orgs/CMS-Content-Management-System/repositories",
+      description: `O projeto foi desenvolvido como um produto digital personalizado para um humorista.
+        O site foi pensado para refletir a personalidade leve e divertida do humorista, mas também dar espaço profissional para suas campanhas publicitárias e projetos paralelos. A proposta visual equilibra o entretenimento com a apresentação séria dos conteúdos de mídia e comunicação, visto que o humorista precisava de um ambiente que pudesse crescer junto com suas oportunidades comerciais e presença digital.`,
       developmentDetails: `
         A criação deste projeto teve como objetivo construir um sistema de blog escalável, fácil de manter e altamente customizável. Durante o desenvolvimento, tomei algumas decisões importantes para garantir a qualidade e flexibilidade do sistema:
         <br/><br/>
@@ -36,11 +35,78 @@ export const projects = [
       id: 1
     },  
     {
+      title: "Controle e Impressão de Cheques Emitidos",
+      online: true,
+      image: "/Portifolio/signingcheque.png",
+      empresaImg: "/Portifolio/maestrodobrasil.png",
+      tags: ["C#", ".NET Framework", "Windows Forms", "SQL Server", "Stored Procedures", "Financeiro"],
+      model3d: 
+      `
+        <iframe 
+          title="Epson LX 300" 
+          class="h-[200px] md:h-[450px] md:w-[550px]"
+          frameborder="0" 
+          allowfullscreen 
+          mozallowfullscreen="true" 
+          webkitallowfullscreen="true" 
+          allow="autoplay; fullscreen; xr-spatial-tracking" 
+          xr-spatial-tracking 
+          execution-while-out-of-viewport 
+          execution-while-not-rendered 
+          web-share 
+          src="https://sketchfab.com/models/5a51192e4bef415e811b5d675128f53d/embed">
+        </iframe>
+        </div>
+      `,
+      description: `Este projeto foi desenvolvido para atender a uma necessidade levantada pela empresa Maestro do Brasil,
+        que identificou a emissão manual e o controle de 1.804 cheques em um período específico.
+        A solução consistiu na criação de um módulo de "Cheque Emitido" dentro do sistema financeiro M2,
+        permitindo maior segurança, rastreabilidade e automação do processo de emissão e controle de cheques.`,
+      developmentDetails: `
+        <b>Objetivo:</b><br/>
+        Automatizar a emissão e impressão de cheques, controlar talões e sequências, 
+        além de integrar o fluxo de cheques ao módulo de Contas a Pagar.<br/><br/>
+        
+        <b>Funcionalidades:</b><br/>
+        • Cadastro e controle de talões (inclusão, liberação, cancelamento)<br/>
+        • Emissão e impressão de cheques de forma manual e em lote<br/>
+        • Status de cheques: Carteira, Vinculado, Compensado, Cancelado, Devolvido e Sustado<br/>
+        • Integração com Contas a Pagar e baixa de títulos<br/>
+        • Assistente de impressão validando sequência numérica<br/>
+        • Histórico e relatórios para auditoria e acompanhamento<br/><br/>
+
+        <b>Tecnologias Utilizadas:</b><br/>
+        • C# .NET (Windows Forms)<br/>
+        • SQL Server (tabelas e stored procedures dedicadas)<br/>
+        • Integração com impressoras para emissão física<br/><br/>
+
+        <b>Resultados:</b><br/>
+        • Redução de erros manuais na emissão de cheques<br/>
+        • Maior segurança e rastreabilidade financeira<br/>
+        • Automação do processo de numeração e vinculação de cheques<br/>
+        • Integração completa ao fluxo financeiro da empresa Maestro
+      `,
+      id: 2
+    },
+    {
       title: "English SRS App (EM DESENVOLVIMENTO⚠️)",
-      online: false,
       designImage: "/Portifolio/inprogress.png",
       description: "Aplicação em desenvolvimento com foco em auxiliar estudantes de inglês através da metodologia SRS (Spaced Repetition System). O sistema propõe um ciclo de revisões espaçadas e personalizadas com base no desempenho do usuário. Esse projeto é o tema do Trabalho de Conclusão de Curso (TCC).",
       tags: ["SRS", "Educação", "React", "ASP.NET Core", "TCC", "Inglês"],
-      id: 2
-    }
+      id: 3
+    },
+    {
+      title: "English SRS App (EM DESENVOLVIMENTO⚠️)",
+      designImage: "/Portifolio/inprogress.png",
+      description: "Aplicação em desenvolvimento com foco em auxiliar estudantes de inglês através da metodologia SRS (Spaced Repetition System). O sistema propõe um ciclo de revisões espaçadas e personalizadas com base no desempenho do usuário. Esse projeto é o tema do Trabalho de Conclusão de Curso (TCC).",
+      tags: ["SRS", "Educação", "React", "ASP.NET Core", "TCC", "Inglês"],
+      id: 3
+    },
+    {
+      title: "English SRS App (EM DESENVOLVIMENTO⚠️)",
+      designImage: "/Portifolio/inprogress.png",
+      description: "Aplicação em desenvolvimento com foco em auxiliar estudantes de inglês através da metodologia SRS (Spaced Repetition System). O sistema propõe um ciclo de revisões espaçadas e personalizadas com base no desempenho do usuário. Esse projeto é o tema do Trabalho de Conclusão de Curso (TCC).",
+      tags: ["SRS", "Educação", "React", "ASP.NET Core", "TCC", "Inglês"],
+      id: 3
+    },
 ];
