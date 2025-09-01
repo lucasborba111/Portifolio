@@ -9,9 +9,7 @@ import ProjectsSection from "../components/Projects";
 function App() {
   return (
     <div className="flex flex-col h-full w-full md:flex-row items-center">
-      <RevealSection>
-        <AboutMe/>
-      </RevealSection>
+      <AboutMe/>
       <ProjectsSection/>
     </div>
   )

@@ -24,12 +24,13 @@ export default function AboutMe () {
                 </p>
                 <p className="text-[20px]">Engenheiro de software</p>
                 <div className="flex flex-row gap-6">
-                    <div className="group relative flex items-center m-0 cursor-pointer">
+                    <div className="relative flex items-center m-0 cursor-pointer">
                         <SiGmail size={25} onClick={handleCopy} />
 
                         <p
-                            onClick={handleCopy}
-                            className="absolute left-[90%] top-full mt-2 -translate-x-1/2 opacity-0 translate-y-2 transition-all duration-300 ease-in-out group-hover:opacity-100 group-hover:translate-y-0 group-hover:translate-x-[-50%] bg-white px-2 py-1 rounded shadow text-[14px] whitespace-nowrap select-none"
+                            className={`absolute left-[90%] top-full mt-2 -translate-x-1/2 bg-white px-2 py-1 rounded shadow text-[14px] whitespace-nowrap select-none transition-all duration-300 ease-in-out
+                            ${copied ? "opacity-100 translate-y-0 translate-x-[-50%]" : "opacity-0 translate-y-2"}
+                            `}
                         >
                             {copied ? "Copiado!" : "devlucasborba@gmail.com"}
                         </p>
@@ -39,7 +40,7 @@ export default function AboutMe () {
                             <BsGithub size={25}/> 
                         </div>
                     </Link>
-                    <Link>
+                    <Link to={"https://www.linkedin.com/in/devlucasborba/"}>
                         <div className="flex flex-row items-center gap-3 flex-wrap m-0 cursor-pointer">
                             <BsLinkedin size={25}/> 
                         </div>
