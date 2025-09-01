@@ -94,19 +94,5 @@ export const projects = [
       description: "Aplicação em desenvolvimento com foco em auxiliar estudantes de inglês através da metodologia SRS (Spaced Repetition System). O sistema propõe um ciclo de revisões espaçadas e personalizadas com base no desempenho do usuário. Esse projeto é o tema do Trabalho de Conclusão de Curso (TCC).",
       tags: ["SRS", "Educação", "React", "ASP.NET Core", "TCC", "Inglês"],
       id: 3
-    },
-    {
-      title: "English SRS App (EM DESENVOLVIMENTO⚠️)",
-      designImage: "/Portifolio/inprogress.png",
-      description: "Aplicação em desenvolvimento com foco em auxiliar estudantes de inglês através da metodologia SRS (Spaced Repetition System). O sistema propõe um ciclo de revisões espaçadas e personalizadas com base no desempenho do usuário. Esse projeto é o tema do Trabalho de Conclusão de Curso (TCC).",
-      tags: ["SRS", "Educação", "React", "ASP.NET Core", "TCC", "Inglês"],
-      id: 3
-    },
-    {
-      title: "English SRS App (EM DESENVOLVIMENTO⚠️)",
-      designImage: "/Portifolio/inprogress.png",
-      description: "Aplicação em desenvolvimento com foco em auxiliar estudantes de inglês através da metodologia SRS (Spaced Repetition System). O sistema propõe um ciclo de revisões espaçadas e personalizadas com base no desempenho do usuário. Esse projeto é o tema do Trabalho de Conclusão de Curso (TCC).",
-      tags: ["SRS", "Educação", "React", "ASP.NET Core", "TCC", "Inglês"],
-      id: 3
-    },
+    }
 ];

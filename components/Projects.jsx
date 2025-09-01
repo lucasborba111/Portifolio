@@ -36,7 +36,7 @@ const ProjectsSection = () => {
       <Swiper
         modules={[Navigation, Pagination]}
         spaceBetween={30}
-        slidesPerView={3 }
+        slidesPerView={2}
         navigation={{
           prevEl: prevRef.current,
           nextEl: nextRef.current,
@@ -57,7 +57,7 @@ const ProjectsSection = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="group w-fit"
+              className="group w-[400px] md:w-full"
             >
               <Link
                 to={project.online ? `/project/${project.id}` : "#"}
